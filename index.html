@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ᴀɴɴᴀ ʀᴇᴅᴅʏ & ɪᴘʟ™అన్నా™</title>
+
+<!-- META PIXEL (SAFE) -->
+<script>
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];
+t=b.createElement(e);t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','YOUR_PIXEL_ID_HERE');
+fbq('track','PageView');
+</script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{
+background:linear-gradient(180deg,#7a0000,#120000);
+color:#fff;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.container{max-width:420px;width:100%;padding:20px;text-align:center}
+.logo{
+width:110px;height:110px;border-radius:50%;
+border:4px solid gold;margin:0 auto 15px;
+overflow:hidden;background:#000;
+}
+.logo img{width:100%;height:100%;object-fit:cover}
+.title{font-size:30px;font-weight:900;color:gold}
+.subtitle{font-size:15px;color:#ffdede;margin-top:6px}
+.counter{font-size:56px;font-weight:900;color:#2cff2c;margin:20px 0}
+.stats{text-align:left;margin:20px 0}
+.stats p{font-size:17px;margin-bottom:12px}
+.join-btn a{
+display:block;background:gold;color:#000;
+font-size:20px;font-weight:900;padding:18px;
+border-radius:10px;text-decoration:none;
+margin:25px 0;
+box-shadow:0 0 25px rgba(255,215,0,.6);
+}
+.footer{font-size:12px;opacity:.7;margin-top:18px}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="logo"><img src="logo.png"></div>
+<div class="title">ᴀɴɴᴀ ʀᴇᴅᴅʏ & ɪᴘʟ™అన్నా™</div>
+<div class="subtitle">IPL Toss & Match Expert</div>
+
+<div class="counter" id="count">45</div>
+
+<div class="stats">
+<p>🏏 IPL • T20 • ODI Toss Updates</p>
+<p>🔥 Pre & Post Toss Match Analysis</p>
+<p>📊 Entertainment Based Insights</p>
+<p>⚡ Fast Cricket Updates</p>
+</div>
+
+<div class="join-btn">
+<a href="https://t.me/+n2ILfA2GA6UzOTA1"
+onclick="fbq('trackCustom','TelegramJoin_AnnaReddy');">
+JOIN TELEGRAM CHANNEL
+</a>
+</div>
+
+<div class="footer">High Accuracy (Entertainment Only)</div>
+</div>
+
+<script>
+let t=45;
+setInterval(()=>{
+ if(t>0){
+ t--;
+ document.getElementById("count").innerHTML=t;
+ }
+},1000);
+</script>
+</body>
+</html>
